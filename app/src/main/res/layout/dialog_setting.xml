@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffF2F2F2"
+              android:minWidth="1000dp"
+              android:orientation="vertical"
+              android:paddingBottom="20dp"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp">
+
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn"
+        android:text="刷新"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btn_02"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn"
+        android:text="在浏览器中打开"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btn_03"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn"
+        android:text="分享"
+        android:textColor="@android:color/black"/>
+
+    <Button
+        android:id="@+id/btn_04"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn"
+        android:text="取消"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>
